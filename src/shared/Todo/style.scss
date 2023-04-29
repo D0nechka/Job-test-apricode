@@ -1,0 +1,32 @@
+.todo {
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  align-items: center;
+
+  .title {
+    max-height: 20px;
+    margin-left: 10px;
+    width: 200px;
+    max-width: 200px;
+
+    white-space: nowrap;
+    overflow: hidden
+  }
+
+  .delete {
+    color: red;
+  }
+
+  .todo-btn {
+    background: none;
+    width: 30px;
+    padding: 0;
+    margin-left: 20px;
+
+    svg {
+      font-size: 22px;
+    }
+  }
+}

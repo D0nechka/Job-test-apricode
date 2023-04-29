@@ -1,0 +1,22 @@
+.todos-container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+
+  .logout-todo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .email-todo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+  }
+}

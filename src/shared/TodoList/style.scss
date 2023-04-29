@@ -1,0 +1,28 @@
+.todo-list-container {
+  display: flex;
+  flex-direction: column;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  &__sort {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .error {
+    color: red;
+  }
+
+  .active-sort {
+    background: green;
+  }
+
+  .btn-open-create-modal {
+    margin-top: 20px;
+  }
+}

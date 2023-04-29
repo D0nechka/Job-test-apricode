@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "email": "user@mail.ru",
+      "password": "$2a$10$rnlG7rbPeUfXhdYWrZZP4umG40bgXeucT5e.FHoQE.IdH5vzyd7ii",
+      "id": 1
+    },
+    {
+      "email": "user1@mail.ru",
+      "password": "$2a$10$PyAwGmdxsW8PQj8CwK/yS.0Z9DH9uMGmKUPJEhtW66QdcBojDJplK",
+      "id": 2
+    }
+  ],
+  "todos": [
+    {
+      "title": "todo 3456745124612642184782178427814782178478217841278478127841278487218748712",
+      "completed": true,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "title": "todo 2",
+      "userId": 2,
+      "completed": false
+    },
+    {
+      "title": "123",
+      "completed": true,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "title": "123",
+      "completed": true,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "title": "21321",
+      "completed": true,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "title": "123",
+      "userId": 2,
+      "completed": false,
+      "id": 8
+    },
+    {
+      "title": "МОЯ ЗАДАЧА",
+      "completed": true,
+      "userId": 2,
+      "id": 9
+    }
+  ]
+}
