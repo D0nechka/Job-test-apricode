@@ -1,7 +1,7 @@
 export enum SORT {
     ALL = 'all',
-    COMPLETED = 'completed',
-    UNCOMPLETED = 'uncompleted'
+    COMPLETED = 'done',
+    UNCOMPLETED = 'undone'
 }
 
 export const sortArray = [ SORT.ALL, SORT.COMPLETED, SORT.UNCOMPLETED ];

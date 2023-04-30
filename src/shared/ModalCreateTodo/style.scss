@@ -15,5 +15,10 @@
     width: 50%;
     margin-top: 20px;
   }
+
+  input::-webkit-input-placeholder { color: rgb(255, 255, 255); }
 }
 
+.btn-add-todo {
+  font-size: 20px;
+}

@@ -3,6 +3,7 @@ import { observer } from 'mobx-react';
 import { ACCESS_TOKEN } from '../../config';
 import { rootStore } from '../../store/rootStore.ts';
 import { TodoList } from '../../shared';
+import bg from '../../config/assets/background.jpg';
 import './style.scss';
 
 export const Todos = observer(() => {
@@ -18,6 +19,7 @@ export const Todos = observer(() => {
             <Text className="email-todo">{email}</Text>
             <Button onClick={handleLogout} className="logout-todo">Выйти</Button>
             <TodoList />
+            <img src={bg} className='img'/>
         </div>
     );
 });

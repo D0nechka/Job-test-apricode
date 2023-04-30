@@ -1,9 +1,16 @@
 .button {
+  color: white;
   padding: 10px;
-  background: darkblue;
-  color: #fff;
   cursor: pointer;
+  border: 1px white solid;
   border-radius: 5px;
+  background: transparent;
+  transition: 500ms;
+}
+
+.button:hover {
+  transition: 500ms;
+  background-color: rgba(255, 255, 255, 0.112) ;
 }
 
 .button-disabled {

@@ -44,7 +44,7 @@ export const TodoList = observer(() => {
     return (
         <div className='todo-list-container'>
             <ModalCreateTodo isOpen={isOpenCreate} handleClose={handleCloseCreateModal} userId={userId} />
-            <Text>Todo list</Text>
+            <Text className='logo'>Todo list</Text>
             {!!error.length && <Text className="error">{error}</Text>}
             <Button
                 className="btn-open-create-modal"
@@ -56,7 +56,7 @@ export const TodoList = observer(() => {
                         <Button
                             key={sort}
                             onClick={() => setCurrentSort(sort)}
-                            className={sort === currentSort ? 'active-sort' : ''}
+                            className={sort === currentSort ? 'active-sort' : 'sort-button'}
                         >{sort}</Button>
                     ))
                 }
@@ -70,7 +70,7 @@ export const TodoList = observer(() => {
                         title={todo.title}
                         userId={userId}
                     />
-                )) : <Text>Добавьте задачи</Text>}
+                )) : <Text className='empty'>Добавьте задачи</Text>}
             </div>
         </div>
     );

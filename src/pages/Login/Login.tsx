@@ -2,8 +2,9 @@ import { Input, Button, Text } from '../../ui';
 import { useState } from 'react';
 import { loginService, isErrorLogin } from '../../services';
 import { observer } from 'mobx-react';
-import './style.scss';
 import { rootStore } from '../../store/rootStore.ts';
+import bg from '../../config/assets/background.jpg';
+import './style.scss';
 
 export const Login = observer(() => {
     const [ error, setError ] = useState('');
@@ -60,6 +61,7 @@ export const Login = observer(() => {
             >
                 Войти
             </Button>
+            <img src={bg} className='backgroundimg'/>
         </div>
     );
 });

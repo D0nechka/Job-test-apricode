@@ -8,28 +8,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.581);
+  backdrop-filter: blur(5px);
 
   &__wrapper {
     display: flex;
-    background: white;
+    background: rgba(255, 255, 255, 0.264);	
     position: relative;
-
     height: 200px;
     width: 500px;
-    border-radius: 20px;
+    border-radius: 5px;
   }
 
   &__close {
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 10px;
     background: none;
-    color: red;
+    border: 0;
 
     svg {
       font-size: 28px;
+      fill: white;
     }
   }
 }
